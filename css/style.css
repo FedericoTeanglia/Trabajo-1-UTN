@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    padding: 10px 20px;
+}
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    padding: 10px;
+}
+
+/* MENU IZQUIERDO */
+.menu-izquierdo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu-izquierdo a {
+    text-decoration: none;
+}
+
+.menu-izquierdo a p{
+    font-size: 18px;
+    color: rgb(197, 189, 189);
+
+}
+
+.menu-items{
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    gap: 12px;
+
+}
+
+.menu-items li a{
+    text-decoration: none;
+    color: rgb(197, 189, 189);
+
+}
+
+/* MENU DERECHO */
+
+.menu-derecho{
+    display: flex;
+    align-items: center;
+}
+
+button a {
+    text-decoration: none;
+    
+    
+}
+
